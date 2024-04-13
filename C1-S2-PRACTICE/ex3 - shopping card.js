@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Arrays</h2>
-
-<p>Multiply every element in the array with 10:</p>
-
-<p id="demo"></p>
-
-<script>
 // 1- List of products in the shop : each product having a unique id, name and unit price:
 const PRODUCTS = [
   { id: 1, name: "Apple", price: 2.5 },
@@ -131,8 +120,3 @@ console.log(JSON.stringify(SHOPPING_CART)); //  Shoud be    [{"id":1,"quantity":
 // test 5  -
 removeProductFromCart(2);
 console.log(JSON.stringify(SHOPPING_CART)); //  Shoud be    [{"id":1,"quantity":2},{"id":3,"quantity":1}]
-
-</script>
-
-</body>
-</html>
